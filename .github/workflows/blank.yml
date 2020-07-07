@@ -30,4 +30,7 @@ jobs:
     - name: Run a multi-line script
       run: |
         echo Add other actions to build,
+        ls -l
+        pwd
+        TESTFLINGER_SERVER=http://192.168.2.142 testflinger results 3b4229ed-c9bf-4e5f-a86d-c1236a08a3de
         echo test, and deploy your project.
